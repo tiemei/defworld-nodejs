@@ -12,6 +12,6 @@ app.get('/tools/flickrCb', function(req, res) {
   var oauth_verifier = req.query.oauth_verifier
   res.set('Content-Type', 'text/html');
   res.send('<h3>flickr auth sucess!</h3><br />' + "oauth_token=" + oauth_token +
-           '<br />oauth_verifier=' + oauth_verifier);  
+           '<br />oauth_verifier=' + oauth_verifier + "<br /><a href=\"/\">back to defworld.com</a>");  
 });
 app.listen(3000);
