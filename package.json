@@ -1,0 +1,9 @@
+{
+  "name": "defworld-nodejs", 
+  "description": "defworld.com网站动态部分",
+  "version": "0.0.1",
+  "privat": true,
+  "dependencies": {
+    "express": "3.x"  
+  }
+}
